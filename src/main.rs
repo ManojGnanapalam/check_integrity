@@ -3,7 +3,7 @@ use std::fs::File;
 use std::io::{self,Read, BufReader};
 
 fn main(){
-    let file_path = r"C:\Users\gsman\OneDrive\Desktop\Scripting\hasshing.txt";
+    let file_path = r"C:\Users\hasshing.txt";
     println!("{:?}",get_hash(file_path));
 }
 
